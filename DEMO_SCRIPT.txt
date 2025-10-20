@@ -3,9 +3,9 @@
         AI-Powered Quality Management System for Root Cause Analysis
 ================================================================================
 
-Total Duration: ~8-10 minutes
+Total Duration: ~4-5 minutes
 Audience: Business stakeholders, Quality managers, Manufacturing leadership
-Tone: Professional, explanatory, business-focused
+Tone: Professional, concise, business-focused
 
 ================================================================================
 SCREEN 1: WELCOME SCREEN / LANDING PAGE
@@ -13,22 +13,14 @@ SCREEN 1: WELCOME SCREEN / LANDING PAGE
 
 [NARRATION]
 
-"Welcome to the Denso Quality Management System - an intelligent, AI-powered 
-platform designed to revolutionize how we handle customer complaints and 
-perform root cause analysis in manufacturing.
+"Welcome to the Denso Quality Management System - an AI-powered platform that 
+reduces root cause analysis time from weeks to days.
 
-Traditionally, when a customer complaint comes in regarding a quality issue, 
-our quality teams spend weeks or even months manually investigating. They have 
-to trace the product lineage, review production records, interview operators, 
-analyze machine logs, check material changes, and correlate all this 
-information to identify the root cause. This process is not only time-consuming 
-but also prone to human error and oversight.
+Traditionally, quality investigations take 4-8 weeks of manual work - tracing 
+product lineage, reviewing records, analyzing changes, and correlating data. 
+Our AI system does this in minutes using 8 specialized agents working in parallel.
 
-Our AI-powered system changes this entirely. What you're looking at here is 
-the main interface. You can see we have a clean, modern dashboard with the 
-Denso logo. This is where every quality investigation begins.
-
-Let me click on 'Start New Analysis' to show you how this works."
+Let me show you how it works by starting a new analysis."
 
 
 ================================================================================
@@ -37,30 +29,13 @@ SCREEN 2: COMPLAINT INTAKE FORM
 
 [NARRATION]
 
-"The first step in any quality investigation is capturing the complaint details. 
-This is our Complaint Intake form, and I've pre-populated it with a real-world 
-scenario to demonstrate the system's capabilities.
+"First, we capture the complaint details. This form has product information, 
+serial number, defect type, and description. In this case, it's a helium leak 
+failure affecting multiple units from the same lot - a high-severity issue.
 
-Let's walk through the information we're capturing:
-
-Product Model: HA6401-30 - this is one of our helium leak test units
-Part Number: HLT-2024-001
-Serial Number: SN20240115-0045
-Customer: Our customer is from the Automotive OEM sector
-Defect Type: Helium Leak - a critical quality issue
-Severity: High - because leak issues can compromise product safety and reliability
-
-In the defect description, we have: 'Helium leak test failure detected at 
-customer site. Unit failed to meet 5x10^-7 standard leak rate specification. 
-Multiple units from same production lot showing elevated leak rates.'
-
-Now, here's where the AI comes in. The moment I click 'Start Analysis', the 
-system doesn't just store this information - it immediately activates eight 
-specialized AI agents, each with a specific role in the investigation. These 
-agents work in parallel, which means we can complete in minutes what would 
-normally take weeks.
-
-Let me start the analysis now."
+When I click 'Start Analysis', eight AI agents immediately activate and work 
+in parallel - handling traceability, change detection, correlation analysis, 
+hypothesis generation, and action planning. Let's watch them in action."
 
 
 ================================================================================
@@ -69,61 +44,16 @@ SCREEN 3: AGENT ACTIVITY MONITOR
 
 [NARRATION]
 
-"This is one of the most powerful features of our system - the real-time 
-Agent Activity Monitor. Watch what's happening here.
+"Here you see all eight AI agents working simultaneously. The Traceability Agent 
+traces production lineage. The Change Scan Agent identifies all process changes 
+around the defect window using the 5M1E framework - Man, Machine, Material, 
+Method, Measurement, Environment. The Correlation Engine performs statistical 
+analysis to rank which changes most likely caused the defect. And the Hypothesis 
+Generator creates root cause theories based on historical data.
 
-You can see eight AI agents, each working simultaneously on different aspects 
-of the investigation:
-
-Agent 1 - Intake Agent: It's processing the complaint details, extracting key 
-information, and categorizing the issue severity and type.
-
-Agent 2 - Traceability Agent: This agent is diving into our production database 
-to trace the complete lineage of this specific unit. It's identifying which 
-production line it was made on, which machine, which operator, what materials 
-were used, even environmental conditions during production.
-
-Agent 3 - Change Scan Agent: This is particularly clever. It's scanning our 
-change management system to identify any process changes, material changes, 
-machine maintenance, or operational modifications that occurred around the 
-time this product was manufactured. This is critical because most quality 
-issues are triggered by changes in the 5M1E factors - Man, Machine, Material, 
-Method, Measurement, and Environment.
-
-Agent 4 - Data Aggregation Agent: It's pulling data from multiple sources - 
-our MES system, quality databases, supplier records, maintenance logs - and 
-consolidating everything into a unified dataset.
-
-Agent 5 - Correlation Engine: Here's where advanced analytics comes in. This 
-agent is running statistical correlation analysis to identify which process 
-changes have the strongest correlation with the defect pattern we're seeing.
-
-Agent 6 - Hypothesis Generator: Using machine learning models, this agent is 
-generating potential root cause hypotheses based on historical data, similar 
-past incidents, and the correlation patterns identified.
-
-Agent 7 - Action Planning Agent: It's not just about finding the root cause - 
-we need countermeasures. This agent is recommending specific actions based on 
-best practices and what has worked in similar situations before.
-
-Agent 8 - KPI Tracker: This agent sets up the framework for monitoring key 
-performance indicators to ensure that whatever countermeasures we implement 
-are actually effective.
-
-The beauty of this approach is that all these agents work simultaneously. In 
-traditional analysis, these steps would happen sequentially, each taking days 
-or weeks. Here, it happens in parallel within minutes.
-
-Behind the scenes, these agents are powered by large language models fine-tuned 
-on manufacturing quality data, combined with traditional statistical methods 
-and our domain expertise codified into the system. It's a perfect blend of 
-AI capability and manufacturing know-how.
-
-Notice how the agents show 'Analyzing', 'Processing', and 'Completed' status 
-in real-time. This transparency is important - you always know what the system 
-is doing.
-
-Now let's look at the actual results, starting with traceability."
+This parallel processing is key - what normally takes weeks sequentially happens 
+in minutes. The agents use AI models fine-tuned on manufacturing data combined 
+with traditional statistical methods. Let's see the results."
 
 
 ================================================================================
@@ -132,44 +62,12 @@ SCREEN 4: TRACEABILITY DASHBOARD
 
 [NARRATION]
 
-"This is the Traceability Dashboard - a comprehensive view of the product's 
-complete manufacturing journey.
+"The Traceability Dashboard shows the complete manufacturing journey - production 
+line, machine, operator, and all child parts with supplier information. 
 
-At the top, you can see the Production Information. This specific unit was 
-manufactured on Line A, using Machine ID HLT-M-002, with Operator OP-127 
-working the day shift. The production date was January 15th, 2024.
-
-Below that, we have the Lot Information. This is crucial because if one unit 
-from a lot has issues, others might too. This was Lot L-2024-0115, which 
-contained 250 units. The lot quality status shows 'Under Review' because we've 
-detected issues.
-
-Now, one of the most powerful features is the Child Parts tracing. Manufacturing 
-is complex - a finished product contains many components. Here we can see:
-- The Flux material, lot FL-240110, supplied by Senju Corp
-- The O-ring seal, lot OR-240108, from NOK Corporation  
-- The Test chamber assembly, lot TC-240105, from Denso Manufacturing Thailand
-
-If there's a material quality issue from any supplier, this traceability allows 
-us to identify it immediately.
-
-Look at this Helium Leak Test Trend chart. This is historical test data 
-visualized. The blue bars represent leak rate measurements over time, and the 
-red line is our specification limit of 5×10⁻⁷. Notice the spike starting 
-around January 10th - that's when leak rates began exceeding the specification.
-
-The AI has generated an insight: 'Significant increase in leak rate detected 
-starting Jan 10, 2024. Pattern suggests process-related root cause rather than 
-random variation.'
-
-This kind of insight is valuable because it immediately tells us we're not 
-looking at random defects or material issues from a supplier - this is likely 
-something that changed in our process. This narrows down the investigation 
-significantly.
-
-The approach here is to establish the 'what' - what happened, when it started, 
-and what the pattern looks like. Next, we need to understand 'why' it happened. 
-That's where the 5M1E Change Analysis comes in."
+The trend chart reveals leak rates spiked starting January 10th. The AI insight 
+says this pattern suggests a process-related cause, not random defects. This 
+tells us something changed in our process. Let's find out what."
 
 
 ================================================================================
@@ -178,65 +76,18 @@ SCREEN 5: 5M1E CHANGE ANALYSIS
 
 [NARRATION]
 
-"Now we're looking at the 5M1E Change Analysis screen. This is where the 
-system's intelligence really shines.
+"The 5M1E Change Analysis identifies every process change during the defect 
+window across six categories: Man, Machine, Material, Method, Measurement, 
+and Environment.
 
-5M1E is a fundamental quality management framework that examines six categories 
-where changes can introduce quality issues:
-- Man (operators, skills, training)
-- Machine (equipment, tools, calibration)
-- Material (raw materials, components, suppliers)
-- Method (processes, procedures, work instructions)
-- Measurement (inspection methods, test equipment)
-- Environment (temperature, humidity, cleanliness)
+The system found three key changes: Flux weight reduced from 5.2g to 4.8g on 
+January 8th - 89% correlation with defects. New flux supplier material - 76% 
+correlation. And pressure gauge calibration drift - 82% correlation.
 
-What our Change Scan Agent has done is identify every single change that 
-occurred in our manufacturing system during the incident window - roughly 
-two weeks before the first defect appeared until now.
-
-Let me walk through some key findings:
-
-First change: 'Flux weight reduced from 5.2g to 4.8g per unit' - This is 
-categorized under Method. It happened on January 8th, two days before leak 
-rates started increasing. The system has marked this as HIGH impact and 
-assigned it an 89% correlation with our defect pattern. This is a very strong 
-correlation.
-
-Second change: 'New flux supplier material composition' - Under Material 
-category. This happened on January 6th. Medium impact, 76% correlation. 
-The timing is interesting - it coincides with the flux weight reduction.
-
-Third change: 'Pressure gauge PG-002 calibration drift detected' - Under 
-Measurement category. January 12th, High impact, 82% correlation. If our 
-pressure measurements are inaccurate, we might not be detecting leaks properly 
-during production.
-
-You can see other changes listed: operator shift changes, machine parameter 
-adjustments, environmental monitoring, maintenance activities, and more. 
-Each one is categorized, dated, and analyzed for its potential contribution 
-to the quality issue.
-
-Now, let me scroll down to show you something really important - the 
-Correlation Analysis chart.
-
-This bar chart shows the statistical correlation between each process change 
-and the defect rate. The flux weight reduction has the highest bar - 0.89 
-correlation coefficient with a p-value less than 0.05, which means this 
-correlation is statistically significant, not just random chance.
-
-The approach behind this is sophisticated. The system isn't just listing 
-changes chronologically - it's performing actual statistical analysis, 
-correlating the timing and magnitude of each change with the defect pattern 
-we're seeing. It's using techniques like time-series correlation, regression 
-analysis, and pattern matching against historical data.
-
-For business stakeholders, what this means is: instead of your quality team 
-manually reviewing dozens of change records and trying to guess which one 
-caused the problem, the AI has already done the heavy lifting. It's ranked 
-them by likelihood, providing a clear starting point for investigation.
-
-But identifying changes isn't enough. We need to form hypotheses about root 
-causes and test them. Let's look at the Hypothesis View."
+The correlation chart ranks these statistically. The flux weight reduction has 
+the strongest correlation at 0.89 with p-value under 0.05 - meaning it's 
+statistically significant, not random. Instead of manually reviewing dozens of 
+changes, the AI has ranked them by likelihood. Now let's see the hypotheses."
 
 
 ================================================================================
@@ -245,60 +96,17 @@ SCREEN 6: HYPOTHESIS GENERATION VIEW
 
 [NARRATION]
 
-"This is the Hypothesis Generation screen - where the system proposes the 
-most likely root causes based on all the data analyzed.
+"Based on the data, the system generates three root cause hypotheses ranked by 
+confidence.
 
-You can see three hypotheses ranked by confidence level:
+Primary cause at 89% confidence: Reduced flux weight causing insufficient 
+coverage, creating micro-gaps and leak paths. Two contributing factors: the new 
+flux supplier material at 76% confidence, and pressure gauge calibration drift 
+at 68% confidence.
 
-Hypothesis 1 - Confidence: 89%
-'Reduced flux weight causing insufficient coverage during soldering process, 
-leading to micro-gaps and helium leak paths.'
-
-This is marked as the Primary Root Cause. The system has identified that when 
-we reduced the flux weight from 5.2g to 4.8g, we likely compromised the 
-soldering process. Flux is critical in soldering - it prevents oxidation and 
-ensures proper wetting. Less flux means potential gaps where helium can leak 
-through.
-
-The supporting evidence includes:
-- High correlation (89%) with defect onset
-- Timing matches perfectly - the change happened two days before defects appeared
-- Historical data showing that flux weight is a critical parameter
-- Similar incidents in the past when flux parameters were modified
-
-Hypothesis 2 - Confidence: 76%
-'New flux supplier material has different viscosity affecting flow 
-characteristics and joint formation.'
-
-This is identified as a Contributing Factor. We changed flux suppliers around 
-the same time we changed the flux weight. The new material might have different 
-properties that, combined with the weight reduction, exacerbated the problem.
-
-Hypothesis 3 - Confidence: 68%
-'Pressure gauge calibration drift causing inaccurate leak detection during 
-in-line testing, allowing defective units to pass.'
-
-This is also a Contributing Factor. If our pressure gauge was drifting, we 
-might have been producing leaky units all along but not detecting them. However, 
-the system ranks this lower because the leak rate trend shows a clear increase, 
-not just an increase in detection.
-
-What's powerful about this approach is that it's not just giving you one answer. 
-In complex manufacturing situations, problems often have multiple contributing 
-factors. The system identifies the primary root cause and the secondary factors 
-that might be amplifying the issue.
-
-The machine learning models behind this hypothesis generation have been trained 
-on years of historical quality data, incident reports, and resolution outcomes. 
-They know patterns. They know what typically causes what. And they can apply 
-that knowledge to new situations.
-
-For a quality engineer looking at this, they now have a clear investigation 
-path: verify the flux coverage, test the new flux material properties, and 
-recalibrate the pressure gauge. Instead of weeks of trial and error, we have 
-a focused action plan.
-
-Speaking of action plans, let's look at the recommended countermeasures."
+The ML models are trained on years of quality data and past incidents, so they 
+recognize these patterns. Engineers now have a clear path forward instead of 
+weeks of trial and error. Let's see the recommended actions."
 
 
 ================================================================================
@@ -307,73 +115,15 @@ SCREEN 7: ACTION PLAN / COUNTERMEASURES
 
 [NARRATION]
 
-"This is the Action Plan screen, where the system recommends specific, 
-actionable countermeasures to address the root causes we've identified.
+"The system recommends four specific countermeasures: Restore flux weight to 
+5.2g with trial validation. Analyze the new flux supplier material. Recalibrate 
+the pressure gauge with weekly verification. And strengthen the change management 
+process to prevent future issues.
 
-Let me walk through each countermeasure:
-
-Countermeasure 1: 'Restore flux weight to 5.2g per unit and validate with 
-trial production run'
-
-Priority: High
-Timeline: Immediate (1-2 days)
-Responsible: Process Engineering team
-Verification Method: Run 50-unit trial lot with restored flux weight and 
-monitor leak test results
-
-This is straightforward - we're reverting the change that likely caused the 
-problem. But notice we're not just reverting it blindly. We're validating 
-through a controlled trial production run. This is good manufacturing practice.
-
-Countermeasure 2: 'Conduct detailed analysis of new flux supplier material 
-and compare with previous supplier specifications'
-
-Priority: High  
-Timeline: 1 week
-Responsible: Quality Assurance and Materials Engineering
-Verification Method: Lab testing for viscosity, composition, and soldering 
-characteristics
-
-Even if reverting the flux weight fixes the immediate problem, we need to 
-understand if the new flux supplier material is truly equivalent. This ensures 
-we're not just addressing the symptom but understanding all contributing factors.
-
-Countermeasure 3: 'Recalibrate pressure gauge PG-002 and implement weekly 
-calibration verification schedule'
-
-Priority: Medium
-Timeline: 3 days
-Responsible: Maintenance and Quality Control
-Verification Method: Calibration against certified reference standards
-
-This addresses the measurement accuracy concern. And notice it includes a 
-preventive aspect - weekly verification going forward. That's how you prevent 
-recurrence.
-
-Countermeasure 4: 'Update change management process to require quality 
-validation for all process parameter changes'
-
-Priority: Medium
-Timeline: 2 weeks
-Responsible: Quality Management and Operations
-Verification Method: Process documentation update and team training completion
-
-This is a systemic improvement. The root issue here is that someone changed 
-the flux weight - likely for cost reduction or efficiency - without fully 
-validating the quality impact. This countermeasure strengthens the change 
-management process to prevent similar issues in the future.
-
-The status shows these as 'Pending' because in this demo we haven't actually 
-implemented them yet. In a real scenario, you'd update these statuses to 
-'In-Progress' as teams work on them, and 'Completed' once verified.
-
-The approach here reflects best practices in manufacturing quality management: 
-address the immediate issue, understand contributing factors, prevent recurrence, 
-and improve the system. It's not just firefighting - it's continuous improvement.
-
-Now, after we implement these countermeasures, how do we know they worked? 
-That's where KPI tracking comes in, and this is important to understand 
-correctly."
+Each has priority, timeline, responsible team, and verification method. This 
+isn't just firefighting - it's addressing the immediate issue plus systemic 
+improvements. Now, how do we verify these worked? That's where KPI tracking comes 
+in - and this timing is critical to understand."
 
 
 ================================================================================
@@ -382,111 +132,20 @@ SCREEN 8: KPI PERFORMANCE TRACKING
 
 [NARRATION]
 
-"This is the KPI Performance Tracking dashboard. Now, I want to be very clear 
-about what you're seeing here and the timeline involved, because this is 
-crucial for setting the right expectations.
+"This KPI dashboard is crucial, but let's be clear on timing - these results 
+are NOT instant. After implementing countermeasures, we must monitor production 
+for 3-4 days minimum to confirm improvements are real, not random fluctuations.
 
-What you're looking at are projected KPI improvements based on the countermeasures 
-we've planned. However - and this is important - these results are NOT instant. 
-We cannot implement a countermeasure today and see the final KPI impact tomorrow.
+The process: Day 1 - implement countermeasures. Days 2-5 - collect production 
+data. Days 5-7 - analyze KPI trends. Then we can confirm sustained improvement.
 
-Here's the realistic timeline:
+We track four KPIs: Helium Leak Rate reduced 61.7% from 3.2% to 1.8%. First 
+Pass Yield improved 3.8% to 97.8%. Mean Time To Repair down 33.5% to 12.3 minutes. 
+And Defect Rate reduced 61.7% to 1800 PPM.
 
-After we implement the countermeasures - let's say we restore the flux weight 
-and recalibrate the equipment - we need to run production with these new 
-settings. Then we need to collect data over several days to ensure the 
-improvements are real and sustained, not just temporary fluctuations.
-
-Typically, we monitor KPIs for 3 to 4 days minimum, sometimes up to a week, 
-before we can confidently say that the problem is solved. Why? Because 
-manufacturing has natural variation. If we only look at a few hours of data, 
-we might see improvement by chance, not because our countermeasures worked.
-
-So the process is:
-1. Implement countermeasures (Day 1)
-2. Resume production with new settings (Day 1-2)
-3. Collect quality data continuously (Day 2-5)
-4. Analyze trends and calculate KPIs (Day 5-7)
-5. Confirm sustained improvement (Day 7+)
-
-Now, let me walk you through the KPIs we're tracking:
-
-First KPI: Helium Leak NG Rate
-Previous: 3.2%
-After countermeasures: 1.8%
-Target: 2.0%
-Change: 61.7% reduction
-Status: Target Met
-
-This is our primary quality metric. A 61.7% reduction means we've significantly 
-improved leak detection pass rates. We exceeded our target of 2.0%, achieving 
-1.8%. But again, this result would only be confirmed after several days of 
-monitoring production data.
-
-Second KPI: First Pass Yield
-Previous: 94.0%
-After countermeasures: 97.8%  
-Target: 98.0%
-Change: 3.8% improvement
-Status: In Progress
-
-First Pass Yield measures what percentage of units pass all quality checks on 
-the first attempt, without needing rework. We've improved from 94% to 97.8%, 
-getting close to our target of 98%. This is marked 'In Progress' because we're 
-almost there but need to sustain this performance.
-
-Third KPI: Mean Time To Repair (MTTR)
-Previous: 18.5 minutes
-After countermeasures: 12.3 minutes
-Target: 15.0 minutes  
-Change: 33.5% reduction
-Status: Target Met
-
-This KPI tracks how long it takes to address and fix defective units. By 
-reducing MTTR from 18.5 to 12.3 minutes, we've not only met but exceeded our 
-target. This means our rework processes are now more efficient, likely because 
-we're producing fewer complex defects.
-
-Fourth KPI: Defect Rate in Parts Per Million
-Previous: 2900 PPM
-After countermeasures: 1800 PPM
-Target: 2000 PPM
-Change: 61.7% reduction  
-Status: Target Met
-
-This is another way of looking at quality - defects per million units produced. 
-We've reduced from 2900 to 1800 PPM, beating our target of 2000 PPM.
-
-At the bottom, you see a 'Positive Trend Detected' message. The system 
-continuously monitors these KPIs and alerts you to trends. This summary tells 
-us that all KPIs are showing improvement after countermeasure implementation, 
-with specific percentages for each metric.
-
-Now, here's what happens in the real-world workflow:
-
-Week 1: Identify the problem, perform analysis using this AI system, and 
-implement countermeasures.
-
-Week 2: Resume production and begin collecting data. The KPI tracking system 
-starts aggregating quality metrics automatically from your production systems.
-
-Week 3: Review the KPI dashboard. If all KPIs show sustained improvement over 
-multiple days, you can confirm the countermeasures are effective. If not, the 
-system helps you iterate - perhaps there's another contributing factor you 
-need to address.
-
-The AI system doesn't just help you find the root cause faster - it also helps 
-you verify your solution faster by automating the data collection and analysis 
-for KPI tracking.
-
-For business stakeholders, this means:
-- Faster time to resolution - what took 4-8 weeks now takes 2-3 weeks
-- Higher confidence - decisions are based on data and AI analysis, not just 
-  intuition
-- Better prevention - the system learns from each incident, making future 
-  analyses even faster
-
-Let's move to the completion screen to wrap up this analysis."
+The system automates data collection and analysis. What took 4-8 weeks now 
+takes 2-3 weeks total - minutes for analysis, plus time for countermeasure 
+implementation and multi-day KPI verification."
 
 
 ================================================================================
@@ -495,46 +154,16 @@ SCREEN 9: ANALYSIS COMPLETE
 
 [NARRATION]
 
-"This is the Analysis Complete screen - a summary of everything we've 
-accomplished.
+"The Analysis Complete screen summarizes everything: 85% confidence in root 
+cause identification, 61.7% projected defect reduction, and 4 countermeasures 
+planned.
 
-At the top, we have a success indicator showing that the root cause analysis 
-has been completed successfully with actionable countermeasures and KPI 
-tracking in place.
+Key findings in plain language: Primary cause is flux weight reduction, with 
+contributing factors from new supplier material and gauge calibration.
 
-We see three key metrics:
-- 85% Confidence in our root cause identification
-- 61.7% Defect Reduction achieved (or projected, pending multi-day verification)
-- 4 Countermeasures implemented or planned
-
-The 'Key Findings' box summarizes everything:
-- Primary cause: Flux weight reduction from 5.2g to 4.8g
-- Secondary factor: New flux supplier material composition  
-- Contributing factor: Pressure gauge calibration drift
-- All KPIs trending positive after countermeasure implementation
-
-These key findings give executives and stakeholders a quick snapshot. They 
-don't need to read through pages of analysis - it's right here in plain language.
-
-You have two options at this point:
-
-'Export Report' - This generates a comprehensive PDF report that includes all 
-the analysis, data visualizations, hypotheses, countermeasures, and KPI tracking. 
-This report can be shared with customers, used for regulatory compliance, or 
-archived for future reference. It includes traceability information, statistical 
-analysis, and timestamps for audit purposes.
-
-'New Analysis' - This starts a fresh investigation for a new complaint.
-
-The approach here ensures documentation and knowledge capture. Every analysis 
-is stored in the system. Over time, this creates a knowledge base of quality 
-issues, root causes, and effective solutions. The AI models learn from this 
-data, making the system smarter with each investigation.
-
-This is particularly valuable for training new quality engineers. Instead of 
-relying solely on tribal knowledge from experienced engineers, new team members 
-can review past cases in the system and learn the patterns of quality issues 
-and their solutions."
+You can export a comprehensive PDF report for customers or compliance, or start 
+a new analysis. Every case is stored, building a knowledge base that makes the 
+AI smarter over time."
 
 
 ================================================================================
@@ -543,57 +172,20 @@ SCREEN 10: CLOSING REMARKS & VALUE PROPOSITION
 
 [NARRATION]
 
-"Let me summarize the key value propositions of this AI-powered Quality 
-Management System:
+"To summarize the key benefits: Speed - 4-8 weeks reduced to 2-3 weeks total. 
+Accuracy - AI analyzes thousands of data points with statistical confidence. 
+Consistency - same rigorous 5M1E methodology every time. Scalability - one 
+engineer can handle multiple investigations. And continuous learning - the 
+system gets smarter with each case.
 
-1. Speed: What traditionally takes 4-8 weeks is now completed in 2-3 weeks, 
-   including the validation period. The analysis itself happens in minutes, 
-   but we still need time to implement countermeasures and verify their 
-   effectiveness through multi-day KPI monitoring.
+The ROI is clear: faster resolution, less downtime, fewer defective products, 
+reduced warranty costs, and improved customer confidence.
 
-2. Accuracy: By using AI to analyze thousands of data points and correlate 
-   changes with defect patterns, we achieve higher accuracy than manual 
-   analysis. The confidence scores give you transparency about the reliability 
-   of each finding.
+The system integrates with your existing infrastructure - MES, quality databases, 
+change management - making them smarter without replacement.
 
-3. Consistency: Every analysis follows the same rigorous methodology - 5M1E 
-   framework, statistical correlation, hypothesis testing, and KPI tracking. 
-   You get consistent, high-quality investigations regardless of which engineer 
-   is working on it.
-
-4. Scalability: One quality engineer using this system can handle multiple 
-   investigations simultaneously. The AI agents do the heavy lifting of data 
-   collection and analysis, allowing engineers to focus on decision-making 
-   and implementing solutions.
-
-5. Continuous Learning: The system learns from every investigation. The more 
-   you use it, the smarter it gets. It builds a knowledge base of quality 
-   issues, patterns, and effective countermeasures specific to your manufacturing 
-   operations.
-
-6. Cost Reduction: Faster resolution means less production downtime, fewer 
-   defective products reaching customers, and reduced warranty costs. The ROI 
-   typically becomes positive within the first few months of deployment.
-
-7. Customer Satisfaction: When customer complaints are resolved faster with 
-   clear root cause documentation and verified countermeasures, customer 
-   confidence in your quality processes increases. The detailed reports 
-   demonstrate your commitment to quality and continuous improvement.
-
-The system integrates with your existing manufacturing infrastructure - your 
-MES system, quality databases, change management systems, and supplier 
-management platforms. It doesn't require replacing your current systems, it 
-makes them smarter by connecting the dots between data sources that are 
-typically siloed.
-
-From a business perspective, this represents a significant competitive advantage. 
-In industries where quality is paramount - automotive, aerospace, medical devices - 
-the ability to quickly identify and resolve quality issues can be the difference 
-between winning and losing customer contracts.
-
-Thank you for watching this demonstration. We're excited about the potential 
-of AI to transform quality management, and we look forward to deploying this 
-system across our manufacturing operations."
+In industries where quality is paramount, this AI-powered system provides a 
+significant competitive advantage. Thank you for watching."
 
 
 ================================================================================
@@ -601,26 +193,19 @@ system across our manufacturing operations."
 ================================================================================
 
 PRODUCTION NOTES:
-- Total script length: ~8-10 minutes at normal speaking pace
-- Recommend screen recording at 1080p or higher resolution
-- Use mouse highlights or cursor emphasis for key UI elements mentioned
-- Consider adding text overlays for key statistics (89% correlation, etc.)
-- Background music should be subtle and professional
-- Export final video in MP4 format for easy sharing
-
-TECHNICAL NOTES:
-- Ensure all demo data is visible and readable in the recording
-- Test the complete workflow before recording to avoid glitches
-- Have the demo environment ready with pre-populated data
-- Consider doing multiple takes of each screen for better editing options
+- Total script length: ~4-5 minutes at normal speaking pace
+- Record at 1080p resolution minimum
+- Use cursor emphasis for key numbers (89% correlation, etc.)
+- Keep transitions smooth between screens
+- Export as MP4 for easy sharing
 
 KEY MESSAGES TO EMPHASIZE:
-1. 8 AI agents working in parallel (innovative approach)
-2. 5M1E methodology (industry-standard framework)
+1. 8 AI agents working in parallel (core innovation)
+2. 5M1E methodology (industry standard)
 3. Statistical correlation, not guesswork (data-driven)
-4. KPI verification over 3-4 days (realistic expectations)
-5. Weeks reduced to days (business value)
-6. Continuous learning (future-proof investment)
+4. KPI verification needs 3-4 days (critical expectation)
+5. 4-8 weeks reduced to 2-3 weeks (business value)
+6. System learns and improves (future-proof)
 
 ================================================================================
 
