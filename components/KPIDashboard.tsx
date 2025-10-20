@@ -70,12 +70,12 @@ export const KPIDashboard = () => {
                 >
                   <div className="flex items-start justify-between mb-4">
                     <div>
-                      <h4 className="font-semibold text-sm text-muted-foreground mb-1">
+                      <h4 className="font-semibold text-sm text-gray-600 dark:text-gray-300 mb-1">
                         {kpi.name}
                       </h4>
                       <div className="flex items-baseline gap-2">
-                        <span className="text-3xl font-bold">{kpi.after}</span>
-                        <span className="text-sm text-muted-foreground">{kpi.unit}</span>
+                        <span className="text-3xl font-bold text-gray-900 dark:text-gray-100">{kpi.after}</span>
+                        <span className="text-sm text-gray-600 dark:text-gray-400">{kpi.unit}</span>
                       </div>
                     </div>
                     {getTrendIcon(kpi.trend)}
@@ -83,15 +83,15 @@ export const KPIDashboard = () => {
                   
                   <div className="space-y-2">
                     <div className="flex items-center justify-between text-sm">
-                      <span className="text-muted-foreground">Previous:</span>
-                      <span className="font-medium">{kpi.before} {kpi.unit}</span>
+                      <span className="text-gray-700 dark:text-gray-300">Previous:</span>
+                      <span className="font-medium text-gray-900 dark:text-gray-100">{kpi.before} {kpi.unit}</span>
                     </div>
                     <div className="flex items-center justify-between text-sm">
-                      <span className="text-muted-foreground">Target:</span>
-                      <span className="font-medium">{kpi.target} {kpi.unit}</span>
+                      <span className="text-gray-700 dark:text-gray-300">Target:</span>
+                      <span className="font-medium text-gray-900 dark:text-gray-100">{kpi.target} {kpi.unit}</span>
                     </div>
                     <div className="flex items-center justify-between text-sm">
-                      <span className="text-muted-foreground">Change:</span>
+                      <span className="text-gray-700 dark:text-gray-300">Change:</span>
                       <div className="flex items-center gap-2">
                         <span
                           className={`font-semibold ${
@@ -133,10 +133,10 @@ export const KPIDashboard = () => {
                 <TrendingDown className="h-5 w-5 text-green-700 dark:text-green-400" />
               </div>
               <div>
-                <p className="font-bold text-sm text-green-900 dark:text-green-200">
+                <p className="font-bold text-sm text-green-950 dark:text-green-100">
                   Positive Trend Detected
                 </p>
-                <p className="text-sm text-green-800 dark:text-green-300 mt-1 font-medium">
+                <p className="text-sm text-gray-900 dark:text-gray-100 mt-1 font-medium">
                   All KPIs showing improvement after countermeasure implementation. Leak rate reduced by
                   61.7%, FPY improved by 3.8%, and MTTR decreased by 33.5%. Continue monitoring for
                   sustained improvement.
