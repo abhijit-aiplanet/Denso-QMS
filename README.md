@@ -148,6 +148,29 @@ denso/
 └── README.md
 ```
 
+## Deployment
+
+### Deploy to Vercel (Recommended)
+
+The easiest way to deploy this application is using Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/abhijit-aiplanet/Denso-QMS)
+
+**Or manually:**
+
+1. Push your code to GitHub (already done)
+2. Visit [vercel.com](https://vercel.com) and sign in
+3. Click "Add New Project" and import your GitHub repository
+4. Vercel will auto-detect Next.js and configure everything
+5. Click "Deploy" and wait 2-3 minutes
+6. Your app will be live at `https://your-project-name.vercel.app`
+
+For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+### Environment Variables
+
+For production deployment, copy `.env.local.example` to `.env.local` and configure as needed. Currently, no environment variables are required for the PoC.
+
 ## License
 
 This is a Proof of Concept for Denso. All rights reserved.
