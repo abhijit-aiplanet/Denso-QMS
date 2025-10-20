@@ -420,10 +420,10 @@ export default function Home() {
                   </div>
 
                   <div className="p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg">
-                    <h3 className="font-semibold mb-2 text-green-900 dark:text-green-200">
+                    <h3 className="font-semibold mb-2 text-green-950 dark:text-green-100">
                       Key Findings
                     </h3>
-                    <ul className="space-y-1 text-sm text-green-800 dark:text-green-300">
+                    <ul className="space-y-1 text-sm text-gray-900 dark:text-gray-100">
                       <li>✓ Primary cause: Flux weight reduction (5.2g → 4.8g)</li>
                       <li>✓ Secondary factor: New flux supplier material composition</li>
                       <li>✓ Contributing factor: Pressure gauge calibration drift</li>
